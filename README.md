@@ -1,0 +1,1 @@
+WIP: A version of snake to get more comfortable with TypeScript.
