@@ -8,7 +8,7 @@ class Square {
     3: Square | null,
   }
 
-  constructor(boardSize: Number) {
+  constructor() {
     this.isOccupied = false;
     this.containsFood = false;
     this.neighbors = {
@@ -32,9 +32,16 @@ class Edge extends Square {
 }
 
 class Board {
-  board: Array<Array<Square>>;
+  board: Array<Array<Square | null >>;
 
-  constructor()
+  // The constructor should call a method
+  constructor(boardSize: Number) {
+    this.board = [[null]]
+  }
+
+  public spawnFood() {
+
+  }
 }
 
 export {
