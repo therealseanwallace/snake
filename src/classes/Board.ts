@@ -35,7 +35,7 @@ class Board {
   board: Array<Array<Square | null >>;
 
   // The constructor should call a method
-  constructor(boardSize: Number) {
+  constructor(boardSize: number) {
     this.board = [[null]]
   }
 
